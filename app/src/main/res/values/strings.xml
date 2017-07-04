@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UserControl</string>
+    <string name="login_username">Digite seu email</string>
+    <string name="login_password">Digite sua senha</string>
+    <string name="login_button_send">Enviar</string>
+
+    <string name="id"><b>ID: </b></string>
+    <string name="nome"><b>NOME: </b></string>
+    <string name="sobrenome"><b>SOBRENOME: </b></string>
+    <string name="celular"><b>CELULAR: </b></string>
+    <string name="email"><b>EMAIL: </b></string>
+    <string name="senha"><b>SENHA: </b></string>
+
+    <string name="nome_hint">Nome</string>
+    <string name="sobrenome_hint">Sobrenome</string>
+    <string name="celular_hint">Celular</string>
+    <string name="email_hint">E-mail</string>
+    <string name="senha_hint">Senha</string>
+
+    <string name="title_edit">Editar Cliente</string>
+    <string name="title_new">Cadastrar Cliente</string>
+
+    <string name="btn_novo">Novo</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_delete">Deletar</string>
+
+    <string name="error_access">Você não tem acesso!</string>
+</resources>
