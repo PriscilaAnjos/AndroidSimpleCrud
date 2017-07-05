@@ -6,7 +6,7 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.paas.usercontrol.MainActivity">
+    tools:context="com.example.paas.usercontrol.activity.MainActivity">
 
     <EditText
         android:id="@+id/login_username"

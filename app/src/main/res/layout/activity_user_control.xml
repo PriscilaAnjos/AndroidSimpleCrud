@@ -6,16 +6,16 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.paas.usercontrol.UserControlActivity">
+    tools:context="com.example.paas.usercontrol.activity.HomeActivity">
 
     <Button
-        android:text="Visualizar usuários"
+        android:text="@string/btn_visualizar_clientes"
         android:onClick="getUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:text="Novo usuário"
+        android:text="@string/btn_novo_cliente"
         android:onClick="newUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

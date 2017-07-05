@@ -163,7 +163,7 @@ public class ClienteDAO {
     // deleta um cliente por id
     public void deleteDado(int id){
         db = banco.getReadableDatabase();
-        db.delete(Constants.CLIENT_TABELA,Constants.CLIENT_ID + "=" + id,null);
+        db.delete(Constants.CLIENT_TABELA, Constants.CLIENT_ID + "=" + id, null);
         db.close();
     }
 }

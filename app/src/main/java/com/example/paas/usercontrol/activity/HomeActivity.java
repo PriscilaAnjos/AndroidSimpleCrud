@@ -1,15 +1,13 @@
-package com.example.paas.usercontrol;
+package com.example.paas.usercontrol.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.paas.usercontrol.controller.ClienteController;
+import com.example.paas.usercontrol.R;
 
-import java.util.List;
-
-public class UserControlActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     /*
     * Troca a activity para ver os clientes ou cadastrar um novo cliente
@@ -22,12 +20,12 @@ public class UserControlActivity extends AppCompatActivity {
     }
 
     public void getUser(View view) {
-        Intent intent = new Intent(this, ListUserActivity.class);
+        Intent intent = new Intent(this, ListClientActivity.class);
         startActivity(intent);
     }
 
     public void newUser(View view) {
-        Intent intent = new Intent(this, NewUserActivity.class);
+        Intent intent = new Intent(this, NewClientActivity.class);
         startActivity(intent);
     }
 }

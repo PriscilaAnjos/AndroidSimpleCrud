@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">UserControl</string>
+
     <string name="login_username">Digite seu email</string>
     <string name="login_password">Digite sua senha</string>
     <string name="login_button_send">Enviar</string>
@@ -8,22 +9,28 @@
     <string name="nome"><b>NOME: </b></string>
     <string name="sobrenome"><b>SOBRENOME: </b></string>
     <string name="celular"><b>CELULAR: </b></string>
-    <string name="email"><b>EMAIL: </b></string>
+    <string name="email"><b>E-MAIL: </b></string>
     <string name="senha"><b>SENHA: </b></string>
 
-    <string name="nome_hint">Nome</string>
-    <string name="sobrenome_hint">Sobrenome</string>
-    <string name="celular_hint">Celular</string>
-    <string name="email_hint">E-mail</string>
-    <string name="senha_hint">Senha</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_sobrenome">Sobrenome</string>
+    <string name="hint_celular">Celular</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
 
     <string name="title_edit">Editar Cliente</string>
     <string name="title_new">Cadastrar Cliente</string>
 
-    <string name="btn_novo">Novo</string>
+    <string name="btn_novo">Cadastrar</string>
     <string name="btn_editar">Editar</string>
     <string name="btn_voltar">Voltar</string>
     <string name="btn_delete">Deletar</string>
+    <string name="btn_novo_cliente">Novo cliente</string>
+    <string name="btn_visualizar_clientes">Visualizar clientes</string>
 
-    <string name="error_access">Você não tem acesso!</string>
+    <string name="error_title">Erro</string>
+    <string name="error_not_access">Você não tem acesso!</string>
+    <string name="error_null_values_login">Você está tentando acessar o sistema sem informar seu usuário ou senha.\nPreencha e tente novamente!</string>
+    <string name="error_null_values">Você está tentando enviar valores vazios.\nPreencha e tente novamente!</string>
+    <string name="error_null_return">Até o momento não existem nenhum cliente cadastrado no sistema</string>
 </resources>

@@ -1,14 +1,11 @@
 package com.example.paas.usercontrol.controller;
 
-import android.app.Activity;
 import android.content.Context;
-import android.widget.Toast;
 
 import com.example.paas.usercontrol.dao.ClienteDAO;
 import com.example.paas.usercontrol.model.ClienteModel;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by paas on 03/07/2017.
@@ -21,11 +18,9 @@ public class ClienteController {
     * - Valida as informações
     * */
 
-    Context contextClient;
     ClienteDAO cliente;
 
     public ClienteController(Context context){
-        contextClient = context;
         cliente = new ClienteDAO(context);
     }
 

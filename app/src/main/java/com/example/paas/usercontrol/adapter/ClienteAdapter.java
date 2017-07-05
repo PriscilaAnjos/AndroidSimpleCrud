@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.paas.usercontrol.EditUserActivity;
+import com.example.paas.usercontrol.activity.EditClientActivity;
 import com.example.paas.usercontrol.R;
 import com.example.paas.usercontrol.controller.ClienteController;
 import com.example.paas.usercontrol.model.ClienteModel;
@@ -26,7 +26,7 @@ public class ClienteAdapter extends ArrayAdapter<ClienteModel> {
     * Adapter criado para tratar a exibição de Clientes na listagem
     * - Seta os valores para serem exibidos
     * - Botão para deletar -> chama o controller para deletar o usuário
-    * - Botão editar -> muda para a 'EditUserActivity' mandando o id como um 'extra'
+    * - Botão editar -> muda para a 'EditClientActivity' mandando o id como um 'extra'
     * */
     ClienteController cliente = new ClienteController(getContext());
 
@@ -65,7 +65,7 @@ public class ClienteAdapter extends ArrayAdapter<ClienteModel> {
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), EditUserActivity.class);
+                Intent intent = new Intent(getContext(), EditClientActivity.class);
                 intent.putExtra("current_id", current_id);
                 getContext().startActivity(intent);
             }

@@ -6,7 +6,7 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.paas.usercontrol.EditUserActivity">
+    tools:context="com.example.paas.usercontrol.activity.EditClientActivity">
 
     <TextView
         android:text="@string/title_edit"
@@ -17,32 +17,32 @@
 
     <EditText
         android:id="@+id/edit_nome"
-        android:hint="@string/nome_hint"
+        android:hint="@string/hint_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edit_sobrenome"
-        android:hint="@string/sobrenome_hint"
+        android:hint="@string/hint_sobrenome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edit_email"
-        android:hint="@string/email_hint"
+        android:hint="@string/hint_email"
         android:inputType="textWebEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edit_celular"
-        android:hint="@string/celular_hint"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_celular" />
 
     <EditText
         android:id="@+id/edit_senha"
-        android:hint="@string/senha_hint"
+        android:hint="@string/hint_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
