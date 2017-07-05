@@ -25,8 +25,10 @@
     <string name="btn_editar">Editar</string>
     <string name="btn_voltar">Voltar</string>
     <string name="btn_delete">Deletar</string>
+    <string name="btn_cadastrar_novo">Cadastrar novo usuário</string>
     <string name="btn_novo_cliente">Novo cliente</string>
     <string name="btn_visualizar_clientes">Visualizar clientes</string>
+    <string name="btn_sair">Sair</string>
 
     <string name="error_title">Erro</string>
     <string name="error_not_access">Você não tem acesso!</string>

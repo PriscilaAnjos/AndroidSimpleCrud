@@ -26,6 +26,12 @@ public class HomeActivity extends AppCompatActivity {
 
     public void newUser(View view) {
         Intent intent = new Intent(this, NewClientActivity.class);
+        intent.putExtra("intent_name", HomeActivity.class.getSimpleName());
+        startActivity(intent);
+    }
+
+    public void getOut(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }

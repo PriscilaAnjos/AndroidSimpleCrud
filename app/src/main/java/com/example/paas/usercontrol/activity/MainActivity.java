@@ -69,4 +69,9 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
+    public void newUser(View view) {
+        Intent intent = new Intent(this, NewClientActivity.class);
+        intent.putExtra("intent_name", NewClientActivity.class.getSimpleName());
+        startActivity(intent);
+    }
 }

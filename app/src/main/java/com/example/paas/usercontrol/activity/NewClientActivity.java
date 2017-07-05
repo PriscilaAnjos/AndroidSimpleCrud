@@ -38,8 +38,21 @@ public class NewClientActivity extends AppCompatActivity {
 
             cliente.newClient(nome, sobrenome, celular, email, senha);
 
-            Intent intent = new Intent(this, HomeActivity.class);
-            startActivity(intent);
+            Intent intentExtra = getIntent();
+            if(intentExtra.getExtras() != null){
+                String extra = intentExtra.getExtras().getString("intent_name");
+
+                Intent intent;
+                if(extra.equals(HomeActivity.class.getSimpleName())){
+                    intent = new Intent(this, HomeActivity.class);
+                }else{
+                    intent = new Intent(this, MainActivity.class);
+                }
+                startActivity(intent);
+            }else{
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+            }
         }
     }
 
