@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">UserControl</string>
 
-    <string name="login_username">Digite seu email</string>
+    <string name="login_username">Digite seu nome</string>
     <string name="login_password">Digite sua senha</string>
     <string name="login_button_send">Enviar</string>
 
